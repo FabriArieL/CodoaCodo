@@ -10,14 +10,14 @@ public class Ejercicio_Tres {
  public static void main(String[] args){     
      
      Scanner in = new Scanner(System.in);
-     float num_uno, num_dos;
+     float num_uno, num_dos, cociente; 
      
      System.out.println("El programa calcula el cociente con decimales");
-     System.out.print("Ingrese el número entero:");
+     System.out.print("Ingrese el número entero: ");
      num_uno = in.nextInt();
-     System.out.print("Ingrese el otro número entero:");
+     System.out.print("Ingrese el otro número entero: ");
      num_dos = in.nextInt();
-     float cociente = (float) (num_uno / num_dos);
+     cociente = (float) (num_uno / num_dos);
      System.out.println("El resultado de la división es: " + cociente);
  }   
 }
